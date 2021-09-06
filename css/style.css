@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #000;
+}
+.bg-dark {
+  width: 100%;
+  background: #000000e6;
+  height: 100vh;
+}
+.card-body {
+  width: 60%;
+  height: 100vh;
+  background: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+.heading {
+  font-size: 3rem;
+  padding: 1rem;
+}
+.input-group {
+  padding: 0.8rem;
+  background: #e9ecef;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+#tip-from {
+  margin-bottom: 2rem;
+}
+.from-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.from-control {
+  width: 80%;
+  outline: none;
+}
+.input-group:not(:last-child) {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.newInputGroup {
+  border: 1px solid #000;
+  width: 40%;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+.from-grouptwo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.newFromControl {
+  width: 45%;
+}
+h5 {
+  padding: 1rem;
+  font-size: 2rem;
+}
+.newInputGroup:not(:last-child) {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+hr {
+  width: 85%;
+  margin: auto;
+}
+#results {
+  display: none;
+}
